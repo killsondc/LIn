@@ -717,7 +717,7 @@ do
 
                 ContextMenu.Container.Size = UDim2.fromOffset(
                     menuWidth + 8,
-                    ContextMenu.Inner.Layout.AbsoluteContentSize.Y + 4
+                    ContextMenu.Inner.Layout.AbsoluteContentSize.Y + 55
                 )
             end
 
