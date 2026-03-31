@@ -717,7 +717,7 @@ do
 
                 ContextMenu.Container.Size = UDim2.fromOffset(
                     menuWidth + 8,
-                    ContextMenu.Inner.Layout.AbsoluteContentSize.Y + 1500
+                    ContextMenu.Inner.Layout.AbsoluteContentSize.Y + 4
                 )
             end
 
@@ -2690,7 +2690,7 @@ do
 
     local WatermarkOuter = Library:Create('Frame', {
         BorderColor3 = Color3.new(0, 0, 0);
-        Position = UDim2.new(0.38, 0, 0, 0);
+        Position = UDim2.new(0, 0, 0, 0);
         Size = UDim2.new(0, 213, 0, 20);
         ZIndex = 200;
         Visible = false;
