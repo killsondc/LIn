@@ -1853,7 +1853,7 @@ do
             TextSize = 14;
             Text = Info.Text;
             RichText = true;
-            TextXAlignment = Enum.TextXAlignment.Left;
+            TextXAlignment = Enum.TextXAlignment.Center;
             ZIndex = 6;
             Parent = ToggleInner;
         });
