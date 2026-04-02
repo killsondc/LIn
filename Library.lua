@@ -151,7 +151,6 @@ function Library:CreateLabel(Properties, IsHud)
         TextSize = 16;
         TextStrokeTransparency = 0;
         RichText = true;
-        TextXAlignment = Enum.TextXAlignment.Center;
     });
 
     Library:ApplyTextStroke(_Instance);
